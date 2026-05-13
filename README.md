@@ -22,6 +22,14 @@ O sistema foi desenvolvido utilizando tecnologias web modernas e pensado para fu
 
 ---
 
+# 🌐 Acesse o Projeto Online
+
+🔗 **Deploy Oficial:**  
+[Clique aqui para acessar o MOVEASY](https://luizenriquesilva-dev.github.io/Moveasy-Mobilidade-e-Conforto/)
+
+
+---
+
 # ✨ Funcionalidades
 
 ## 🚌 Sistema de Transporte
