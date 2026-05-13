@@ -1,5 +1,3 @@
-([Files][1])([Files][2])([Files][3])([Files][4])([Files][5])([Files][6])([Files][7])([Files][8])([Files][9])
-
 # 🚍 MOVEASY
 
 Sistema web inspirado no aplicativo Moovit, desenvolvido com foco em **mobilidade urbana acessível**, experiência do usuário e inclusão digital.
