@@ -45,7 +45,7 @@ app.get("/onibus", async (req, res) => {
 });
 
 app.listen(3000, () => {
-    console.log("Servidor rodando em http://localhost:3000");
+    console.log("Servidor rodando em https://moveasy-mobilidade-e-conforto.onrender.com/");
 });
 
 app.get('/healthz', (req, res) => {
