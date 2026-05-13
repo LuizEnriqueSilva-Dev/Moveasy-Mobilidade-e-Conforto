@@ -51,3 +51,14 @@ app.listen(3000, () => {
 app.get('/healthz', (req, res) => {
     res.send('OK');
 });
+
+app.get("/", (req, res) => {
+  res.send("Backend Moveasy online!");
+});
+
+app.get("/api/linhas", (req, res) => {
+  res.json([
+    { id: 1, numero: "301", nome: "Centro", destino: "Terminal Central" },
+    { id: 2, numero: "450", nome: "Bairro Norte", destino: "Shopping" }
+  ]);
+});
