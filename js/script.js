@@ -1178,3 +1178,13 @@ function handleGoogleLoginReal(response) {
 }
 
 window.addEventListener("load", initGoogleLoginReal);
+
+google.accounts.id.renderButton(
+    document.getElementById("googleLoginButton"),
+    {
+        theme: "outline",
+        size: "large",
+        shape: "pill",
+        width: 460
+    }
+);
