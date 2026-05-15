@@ -1125,4 +1125,25 @@ body.reading-guide-on .global-reading-guide{
   display:block;
 }
 
- 
+/* Container do botão Google */
+#googleLoginButton {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Faz o botão ocupar toda largura */
+#googleLoginButton > div,
+#googleLoginButton iframe {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* Mantém inputs e botão iguais */
+.login-card input,
+.login-card .btn,
+#googleLoginButton {
+    width: 100%;
+    box-sizing: border-box;
+}
